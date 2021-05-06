@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!-- 
+	객체의 생성과 조립(주입)
+ -->
+ <!-- main함수에서 객체를 바꾸는것이 아니라 '뒷단'에서만 바꾸기!!!!!!! -->
+ <bean id ="messagebean" class="DI_03_Spring.MessageBean_en"></bean>
+ 
+ 
+</beans>

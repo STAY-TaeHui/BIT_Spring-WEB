@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="DI.NewRecord"/>
+    <fullyQualifiedTypeName name="DI.NewRecordView"/>
+    <fullyQualifiedTypeName name="DI2.NewRecord"/>
+    <fullyQualifiedTypeName name="DI2.NewRecordView"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="javax.security.sasl.SaslException"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="javax.management.InvalidApplicationException"/>
+    <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+    <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+    <fullyQualifiedTypeName name="Spring_DI4.RecordView"/>
+    <fullyQualifiedTypeName name="com.model.NewArticleCommand"/>
+    <fullyQualifiedTypeName name="org.springframework.web.servlet.ModelAndView"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="com.service.ArticleService"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	   xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans 
+                           http://www.springframework.org/schema/beans/spring-beans.xsd
+                           http://www.springframework.org/schema/context 
+                           http://www.springframework.org/schema/context/spring-context.xsd">
+	
+
+<!-- hello.do 클릭시 >> 디스패쳐 객체 생성 >> DispatcherServlet이 가지고있는 servlet-name을 xml파일 이름에 *-servlet.xml 식으로 만들면 자동적으로 연결됨 -->
+
+<!-- ex) 요청된 주소가 hello.do 라면 -> handler mapping -> 객체가 가지는 id 값으로 매핑 -> 실행항 controller 찾고 실행
+	>> controller가 가지고있는 HandleRequest함수가 자동 실행된다. >> 전달(결과) >> ViewResolver >> view처리
+-->
+	<bean id="/hello.do" class="kr.or.bit.HelloController"></bean>
+	<bean id="/intro.do" class="kr.or.bit.introController"></bean>
+	
+	<bean id="internalResourceViewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<property name="prefix">
+			<value>/WEB-INF/views/</value>
+		</property>
+		<property name="suffix">
+			<value>.jsp</value>
+		</property>
+	</bean>
+	
+</beans> 
+
+
+
+
