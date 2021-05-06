@@ -7,6 +7,10 @@ D:\BIT_CAMP\Spring\SpringLabs\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsea
 \SpringMVC_Basic02_WebSite\src
 D:\BIT_CAMP\Spring\SpringLabs\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\143170509.index
 \SpringMVC_Basic03_Annotation\src
+D:\BIT_CAMP\Spring\SpringLabs\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2891306485.index
+\SpringMVC_Basic04_WebSite_Annotation\src
+D:\BIT_CAMP\Spring\SpringLabs\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\467345028.index
+\SpringMVC_Basic04_WebSite_Annotation\src
 D:\Spring\SpringLabs\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\608094612.index
 \aaa\src\main\java
 D:\BIT_CAMP\Spring\SpringLabs\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\949750794.index
@@ -21,3 +25,5 @@ D:\BIT_CAMP\Spring\SpringLabs\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsea
 \SpringMVC_Basic02_WebSite\src
 D:\BIT_CAMP\Spring\SpringLabs\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1521069296.index
 \SpringMVC_Basic03_Annotation\src
+D:\BIT_CAMP\Spring\SpringLabs\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3620478319.index
+\SpringMVC_Basic04_WebSite_Annotation\src

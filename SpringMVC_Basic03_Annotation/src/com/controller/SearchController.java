@@ -35,7 +35,7 @@ public class SearchController {
 	4. @RequestParam Annotation 사용하기
 	3번 편하게 사용하기 단점 극복 (유효성 체크)
 	4.1 유효성 처리
-	4.2 기본값 설정
+	4.2 !!!기본값 설정!!!
 	​
 	
 	5. REST API (method : GET, POST , PUT , DELETE )

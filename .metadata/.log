@@ -1304,3 +1304,26 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2021-05-06 14:15:10.425
+!MESSAGE Publishing failed with multiple errors
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2021-05-06 14:15:10.426
+!MESSAGE Could not delete D:\BIT_CAMP\Spring\SpringLabs\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVC_Basic03_Annotation\WEB-INF\lib\com.springsource.org.apache.commons.logging-1.1.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2021-05-06 14:15:10.426
+!MESSAGE Could not delete D:\BIT_CAMP\Spring\SpringLabs\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVC_Basic03_Annotation\WEB-INF\lib\javax.servlet.jsp.jstl-1.2.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2021-05-06 14:15:10.426
+!MESSAGE Could not delete D:\BIT_CAMP\Spring\SpringLabs\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVC_Basic03_Annotation\WEB-INF\lib\javax.servlet.jsp.jstl-api-1.2.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2021-05-06 14:15:10.426
+!MESSAGE Could not delete D:\BIT_CAMP\Spring\SpringLabs\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVC_Basic03_Annotation\WEB-INF\lib\spring-aop-4.2.5.RELEASE.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2021-05-06 14:15:10.426
+!MESSAGE Could not delete D:\BIT_CAMP\Spring\SpringLabs\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVC_Basic03_Annotation\WEB-INF\lib\spring-beans-4.2.5.RELEASE.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2021-05-06 14:15:10.426
+!MESSAGE Could not delete D:\BIT_CAMP\Spring\SpringLabs\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVC_Basic03_Annotation\WEB-INF\lib\spring-context-4.2.5.RELEASE.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2021-05-06 14:15:10.426
+!MESSAGE Could not delete D:\BIT_CAMP\Spring\SpringLabs\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVC_Basic03_Annotation\WEB-INF\lib\spring-core-4.2.5.RELEASE.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2021-05-06 14:15:10.426
+!MESSAGE Could not delete D:\BIT_CAMP\Spring\SpringLabs\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVC_Basic03_Annotation\WEB-INF\lib\spring-expression-4.2.5.RELEASE.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2021-05-06 14:15:10.426
+!MESSAGE Could not delete D:\BIT_CAMP\Spring\SpringLabs\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVC_Basic03_Annotation\WEB-INF\lib\spring-web-4.2.5.RELEASE.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2021-05-06 14:15:10.426
+!MESSAGE Could not delete D:\BIT_CAMP\Spring\SpringLabs\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVC_Basic03_Annotation\WEB-INF\lib\spring-webmvc-4.2.5.RELEASE.jar. May be locked by another process.
