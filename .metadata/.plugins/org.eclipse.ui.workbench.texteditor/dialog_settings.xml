@@ -4,10 +4,16 @@
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value=""/>
+		<item key="selection" value="첨부파일"/>
 		<list key="findhistory">
-			<item value="child"/>
-			<item value="chi"/>
+			<item value="a"/>
+			<item value="enc"/>
+			<item value="수정"/>
+			<item value="제목"/>
+			<item value="sub"/>
+			<item value="form"/>
+			<item value="06"/>
+			<item value="05"/>
 		</list>
 		<list key="replacehistory">
 		</list>

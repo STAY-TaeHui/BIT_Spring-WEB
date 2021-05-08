@@ -38,17 +38,20 @@ public class ImageController {
 		 * 
 		 */
 		System.out.println(photo.toString());
-	    CommonsMultipartFile imagefile =	photo.getFile();
+		//파일 객체 가져와서 CommonsMultipartFile변수에 넣기
+	    CommonsMultipartFile imagefile =photo.getFile();
 		System.out.println("imagefile.name : " + imagefile.getName());
 		System.out.println("imagefile.getContentType : " + imagefile.getContentType());
 		System.out.println("imagefile.getOriginalFilename : " + imagefile.getOriginalFilename());
 		System.out.println("imagefile.getBytes : " + imagefile.getBytes().length);
 		
 		//POINT DB에 들어갈 파일명
+		//CommonsMultipartFile타입의 imagefile에서 파일이름 뽑기 >> photo.setImage로 파일명 세팅 >> DB에 들어갈 파일명
 		photo.setImage(imagefile.getName());
 		
 		//cos.jar 자동 파일 업로드 
 		//실제 파일 업로드 구현 (upload 업로드)
+		//CommonsMultipartFile타입의 imagefile에서 이름을 뽑아오기
 		String filename = imagefile.getOriginalFilename();
 		String path = request.getServletContext().getRealPath("/upload"); //배포된 서버 경로 
 		String fpath = path + "\\" + filename;
