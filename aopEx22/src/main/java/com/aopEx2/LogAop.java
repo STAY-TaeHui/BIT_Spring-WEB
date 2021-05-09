@@ -1,5 +1,6 @@
 package com.aopEx2;
 
+import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.Signature;
 import org.aspectj.lang.annotation.After;
@@ -45,17 +46,17 @@ public class LogAop {
 		}
 	}
 	
-	@Before("execution(* SUB(..))")
-	public void beforeMethod(){
+	@Before("NewCalc.SUB()")
+	public void beforeMethod(JoinPoint joinpoint){
 		System.out.println("........................@BEFORE");
 	}
 	@After("execution(* SUB(..))")
 	public void AfterMethod(){
 		System.out.println("........................@AFTER");
 	}
-	@AfterThrowing("excution(* MUL(..))")
-	public void AfterThrowing() {
-		System.out.println("........................@AFTER Throwing");
-	}
+//	@AfterThrowing("excution(* MUL(..))")
+//	public void AfterThrowing() {
+//		System.out.println("........................@AFTER Throwing");
+//	}
 
 }

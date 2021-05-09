@@ -36,6 +36,7 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\masta\Documents\카카오톡 받은 파일\aopEx2\aopEx2"/>
 			<item value="D:\BIT_CAMP\Spring\SpringLabs\SpringDI_Basic06_AOP"/>
 			<item value="D:\BIT_CAMP\Spring\SpringLabs\SpringDI_Basic05_Prototype"/>
 			<item value="D:\BIT_CAMP\Spring\SpringLabs\SpringDI_Basic04_Bean_LifeCycle"/>
