@@ -7,6 +7,8 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="D:\masta\downloads\mavenweb"/>
+			<item value="D:\masta\downloads\springboot-java-jsp"/>
 			<item value="D:\masta\downloads\aopEx2"/>
 			<item value="D:\masta\downloads\SpringMVC_Basic05_JdbcTemplate"/>
 			<item value="D:\Spring\Sample\SpringDAO_Basic4"/>

@@ -4,16 +4,16 @@
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="첨부파일"/>
+		<item key="selection" value="회원가입"/>
 		<list key="findhistory">
-			<item value="a"/>
-			<item value="enc"/>
-			<item value="수정"/>
-			<item value="제목"/>
-			<item value="sub"/>
-			<item value="form"/>
-			<item value="06"/>
-			<item value="05"/>
+			<item value="회원가입"/>
+			<item value="jdbctem"/>
+			<item value="join"/>
+			<item value="가입"/>
+			<item value="로그인"/>
+			<item value="파일"/>
+			<item value="getCount"/>
+			<item value="첨부"/>
 		</list>
 		<list key="replacehistory">
 		</list>
