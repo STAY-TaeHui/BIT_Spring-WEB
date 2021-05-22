@@ -10,6 +10,7 @@ import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.View;
 
 import dao.MemberDao;
@@ -66,14 +67,30 @@ public class JoinController {
 	}
 	
 	//비동기 JSONVIEW
-	@RequestMapping(value = "idcheck.htm", method = RequestMethod.POST)
-	public View idCheck(@RequestParam("userid") String userid, Model model) {
-	   return null;
-	}
+//	@RequestMapping(value = "idcheck.htm", method = RequestMethod.POST)
+//	public View idCheck(@RequestParam("userid") String userid, Model model) {
+//	   return null;
+//	}
 	
 	@RequestMapping(value="accessDenied.htm",method=RequestMethod.GET)
 	public String Denied() {
 		//return "join.jsp";
 		return "joinus/accessDenied"; //폴더명.파일명
 	}
+	
+//	@RequestMapping(value = "idcheck.do", method = RequestMethod.GET)
+//	public @ResponseBody int idCheck(@RequestParam("userid") String userid) {
+//	   System.out.println("This is idcheck.htm");
+//	   int result = service.idCheck(userid);
+////	   String mo = null;
+////	   if(result>0) {
+////		   mo="false";
+////	
+////	   }
+////	   else {
+////		   mo="true";
+////	   }
+//	   return result;
+//
+//	}
 }

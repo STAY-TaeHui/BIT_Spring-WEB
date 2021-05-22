@@ -25,6 +25,7 @@ public class JoinService {
 	public int idCheck(String userid){
 		MemberDao dao = sqlsession.getMapper(MemberDao.class);
 		int result = dao.idCheck(userid);
+		System.out.println("result : " + result);
 		return result;
 	}
 	
@@ -33,4 +34,5 @@ public class JoinService {
 		int result = dao.loginCheck(username, password);
 		return result;
 	}
+	
 }

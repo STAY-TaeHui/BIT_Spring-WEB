@@ -8,6 +8,38 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 		<title>index</title>
 		<link href="join.css" type="text/css" rel="stylesheet" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		
+		<script type="text/javascript">
+		$(document).ready(function(){ 
+			$('#btnCheckUid').click(function(){
+				console.log($("#userid").val());
+				console.log('CLICK');
+				  $.ajax(
+						 {  
+							type : "GET",
+							url  : "idcheck.do",
+							data : {userid:$("#userid").val()},
+							success : function(data){ 
+								console.log(data)
+								if(data>0){
+									alert('중복된 아이디 입니다.');
+									$('#userid').val('');
+									$('#userid').focus();
+									
+								}
+								else{
+									alert('가입 가능한 아이디입니다..');
+									$('#pwd').focus();
+								}
+								
+							} 
+						 } 
+				       )
+			});
+		}); //end dom 
+
+		</script>
 	</head>
 	<body>
 	  <!-- 공통헤더 include  	<jsp:include page="/WEB-INF/views/inc/header.jsp" />-->
@@ -28,7 +60,7 @@
 									아이디
 								</dt>
 								<dd class="join-form-data">
-									<input type="text" name="userid" />
+									<input type="text" name="userid" id='userid'/>
 									<input id="btnCheckUid" class="button" type="button" value="중복확인" />
 								</dd>
 							</dl>
@@ -37,7 +69,7 @@
 									비밀번호
 								</dt>
 								<dd class="join-form-data">
-									<input type="password" name="pwd" />
+									<input type="password" id="pwd" name="pwd" />
 								</dd>
 							</dl>
 							<dl class="join-form-row">
@@ -124,4 +156,7 @@
 		<!--공통푸터  include  -->
 		  <jsp:include page="../inc/footer.jsp" />
 	</body>
+	
 </html>
+
+
